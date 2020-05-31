@@ -1,0 +1,27 @@
+html
+{
+    font-family: sans-serif;
+}
+h1 {
+    color:red;
+  
+}
+#bekak{
+    color: rgb(14, 155, 45)
+    
+}
+#pandak{
+    color: rgb(230, 218, 132)
+}
+#bekainfo{
+    color: rgb(14, 155, 45)
+  }
+#pandainfo{
+    color: rgb(230, 218, 132)
+}
+#bekavideo {
+    font-style: italic;
+}
+#pandavideo{
+    font-style: italic;
+}
