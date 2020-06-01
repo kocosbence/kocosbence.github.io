@@ -1,41 +1,42 @@
-html
-{
-    font-family: sans-serif;
-    background-image: ();
+body {
+  font-family: sans-serif;
 }
-h1 {
-    color:rgb(184, 111, 111);
-  
+  h1 {
+  color: rgb(176, 94, 94);
 }
-#bekak{
-    color: rgb(14, 155, 45)
-    
+#bekak {
+  color: rgb(87, 209, 113);
 }
-#pandak{
-    color: rgb(230, 218, 132)
+#pandak {
+  color: rgb(230, 218, 132);
 }
-#bekainfo{
-    color: rgb(14, 155, 45)
-  }
-#pandainfo{
-    color: rgb(230, 218, 132)
+#bekainfo {
+  color: rgb(14, 155, 45);
+}
+#pandainfo {
+  color: rgb(230, 218, 132);
 }
 #bekavideo {
-    font-style: italic;
+  font-style: italic;
 }
-#pandavideo{
-    font-style: italic;
+#pandavideo {
+  font-style: italic;
 }
-#piros{
-    color: red
+#piros {
+  color: red;
 }
-#orange{
-    color: orange
+#orange {
+  color: orange;
 }
-#green{
-    color: green
+#green {
+  color: green;
 }
 
-#alahuz{
-    text-decoration: underline;
+#alahuz {
+  text-decoration: underline;
+}
+
+.szalag {
+background-color: rgb(141, 133, 133);
+
 }
