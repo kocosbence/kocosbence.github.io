@@ -16,3 +16,24 @@
   box-shadow: 2px 2px 5px black, 2px 2px 5px rgb(163, 235, 231),
     5px 5px 5px rgb(139, 130, 0);
 }
+
+.borderimg {
+  opacity: 0.2;
+  z-index: 2;
+  position: relative;
+  top: -15px;
+  width: 269.5px;
+  height: 65px;
+}
+.borderimg2 {
+  opacity: 0.05;
+  z-index: 2;
+  position: relative;
+  top: -15px;
+  width: 269.5px;
+  height: 65px;
+}
+
+.body {
+  background-image: url;
+}

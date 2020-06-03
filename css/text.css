@@ -5,10 +5,12 @@
   font-size: 18px;
   text-decoration: none;
   text-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.397);
-  padding-right: 1.7px;
+  padding-right: 4px;
+  padding-left: 4px;
 }
 .navbuttons:hover {
   background-color: rgba(92, 121, 112, 0.24);
+  border-radius: 5px;
 }
 
 .ulnavstyle {
@@ -18,7 +20,7 @@
 }
 .headrowposition {
   z-index: 1;
-  color: rgba(67, 73, 71, 0.822);
+  color: rgb(0, 0, 0);
   text-align: center;
   text-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.397);
   font-family: sans-serif;
