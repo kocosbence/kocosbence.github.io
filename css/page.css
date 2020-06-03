@@ -2,9 +2,17 @@
   background-color: rgba(161, 252, 181, 0.322);
 }
 
-.frogimg {
-  background-color: rgba(0, 128, 0, 0.226);
-}
-.lizardimg {
-  background-color: rgba(0, 128, 0, 0.226);
+.imgfrog {
+  z-index: -1;
+  width: 562px;
+  height: 450px;
+  position: relative;
+  left: 115px;
+  top: 100px;
+  border-right: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 1px;
+  box-shadow: 2px 2px 5px black, 2px 2px 5px rgb(163, 235, 231),
+    5px 5px 5px rgb(139, 130, 0);
 }
