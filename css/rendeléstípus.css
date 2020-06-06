@@ -1,9 +1,9 @@
 .rendelésnaptár {
   font-family: sans-serif;
-  position: relative;
+  position: absolute;
   text-align: left;
-  top: 178px;
-  left: -300px;
+  top: 185px;
+  left: 580px;
 
   transform: translateY(-50%);
   width: 140px;
@@ -26,10 +26,10 @@
 }
 .rendelésstílus {
   font-family: sans-serif;
-  position: relative;
+  position: absolute;
   text-align: left;
-  top: 200px;
-  left: -300px;
+  top: 370px;
+  left: 580px;
 
   transform: translateY(-50%);
   width: 140px;
@@ -41,10 +41,10 @@
 }
 .kiválasztottméret {
   font-family: sans-serif;
-  position: relative;
+  position: absolute;
   text-align: left;
-  top: 223px;
-  left: -280px;
+  top: 560px;
+  left: 580px;
 
   transform: translateY(-50%);
   width: 182px;
@@ -66,6 +66,4 @@
 }
 .tartalom2 {
   cursor: text;
-}
-.választás {
 }
