@@ -1,0 +1,92 @@
+.megrendelőadatai {
+  font-family: sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 335px;
+  left: 140px;
+
+  transform: translateY(-50%);
+  width: 400px;
+  padding: 10px 10px 10px 10px;
+  border: rgba(41, 61, 61, 0.295) solid;
+  border-radius: 10px;
+  margin: 0px auto;
+  background-color: rgba(161, 252, 181, 0.322);
+}
+.megjegyzés {
+  font-family: sans-serif;
+  position: static;
+  box-sizing: content-box;
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  text-rendering: geometricPrecision;
+  text-align-last: center;
+  background-color: transparent;
+  border: 0px;
+  border-left: 1px solid rgba(41, 61, 61, 0.15);
+  border-right: 1px solid rgba(41, 61, 61, 0.15);
+  border-bottom: 1px solid rgba(41, 61, 61, 0.295);
+  resize: none;
+}
+.input-fields {
+  font-family: sans-serif;
+  display: flexbox;
+  margin: 0px auto;
+  background-color: transparent;
+  border-top: transparent;
+}
+
+.input {
+  font-family: sans-serif;
+  margin-top: 5px;
+  height: 26px;
+  background-color: transparent;
+  border: 0px;
+  border-left: 1px solid rgba(41, 61, 61, 0.15);
+  border-right: 1px solid rgba(41, 61, 61, 0.15);
+  border-bottom: 1px solid rgba(41, 61, 61, 0.295);
+  text-align: center;
+  font-size: 17px;
+  width: 300px;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(163, 158, 158);
+  font-style: italic;
+  font-size: 14px;
+}
+::-moz-input-placeholder {
+  color: rgb(163, 158, 158);
+  font-style: italic;
+  font-size: 12px;
+}
+::-ms-input-placeholder {
+  color: rgb(163, 158, 158);
+  font-style: italic;
+  font-size: 12px;
+}
+.személyesadatok {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(41, 61, 61, 0.295);
+  width: 30%;
+  position: relative;
+  left: 36%;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.button:hover {
+  background-color: lightgreen;
+}
+#textarea {
+  resize: none;
+}
