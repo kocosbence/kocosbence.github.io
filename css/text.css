@@ -34,8 +34,7 @@
 .setstaticheadrow {
   z-index: 1;
   position: fixed;
-  left: 94px;
-  min-width: 100%;
+  min-width: calc(100% - 94px);
   background-color: rgb(218, 243, 212);
   top: 0px;
   margin-bottom: 25px;

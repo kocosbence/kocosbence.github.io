@@ -1,9 +1,10 @@
 .rendelésnaptár {
   font-family: sans-serif;
-  position: absolute;
+  position: relative;
   text-align: left;
-  top: 610px;
-  left: 345px;
+  top: 178px;
+  left: -300px;
+
   transform: translateY(-50%);
   width: 140px;
   padding: 10px 10px 10px 10px;
@@ -25,10 +26,11 @@
 }
 .rendelésstílus {
   font-family: sans-serif;
-  position: absolute;
+  position: relative;
   text-align: left;
-  top: 430px;
-  left: 345px;
+  top: 200px;
+  left: -300px;
+
   transform: translateY(-50%);
   width: 140px;
   padding: 10px 10px 10px 10px;
@@ -39,10 +41,11 @@
 }
 .kiválasztottméret {
   font-family: sans-serif;
-  position: absolute;
+  position: relative;
   text-align: left;
-  top: 220px;
-  left: 345px;
+  top: 223px;
+  left: -280px;
+
   transform: translateY(-50%);
   width: 182px;
   padding: 10px 10px 10px 10px;
@@ -65,7 +68,4 @@
   cursor: text;
 }
 .választás {
-  position: relative;
-  top: -32px;
-  left: 230px;
 }
