@@ -1,0 +1,167 @@
+body {
+  background-color: rgba(220, 197, 170, 0.3);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.calendar-flexbox-container {
+  min-width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.calendar-flexbox-item {
+  margin: 0px;
+  width: 180px;
+}
+.calendarleft-item {
+  text-align: left;
+  min-height: 50vh;
+  border-right: 2px solid rgba(255, 255, 255);
+
+  flex-shrink: 0;
+}
+.calendarmiddle-item {
+  text-align: center;
+  min-height: 100vh;
+
+  flex-grow: 12;
+}
+.calendarright-item {
+  border-left: 2px solid rgb(255, 255, 255);
+  flex-shrink: 0;
+  flex-grow: 0.5;
+  padding-left: 8px;
+}
+.calendar-item {
+  text-align: center;
+  min-height: 50vh;
+  border-left: 2px solid rgb(255, 255, 255);
+  width: fit-content;
+}
+
+.ulnavstyleleft {
+  text-align: left;
+  margin: 0px;
+  padding-left: 0px;
+}
+.linavstyleleft {
+  list-style: none;
+  font-size: 20px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.navbuttonsleft {
+  text-decoration: none;
+  color: rgba(39, 37, 37, 0.911);
+  text-shadow: 1px 1px 1px rgba(41, 61, 61, 0.158);
+  display: block;
+}
+.linavstyleleft:hover {
+  background-color: rgba(87, 94, 97, 0.281);
+  cursor: pointer;
+}
+#personaldata2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-origin: content-box;
+  background-color: rgba(41, 61, 61, 0.158);
+  color: rgba(39, 37, 37, 0.911);
+  border-radius: 5px;
+  cursor: context-menu;
+  text-align: center;
+  outline: none;
+  margin: 15px 0px 2px 0px;
+}
+#personaldata {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-origin: content-box;
+  background-color: rgba(41, 61, 61, 0.158);
+  color: rgba(39, 37, 37, 0.911);
+  border-radius: 5px;
+  cursor: context-menu;
+  text-align: center;
+}
+.input-fields {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flexbox;
+  margin: 0px auto;
+  background-color: transparent;
+  border-top: transparent;
+  position: relative;
+  text-align: center;
+}
+
+.input {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 5px;
+  height: 26px;
+  background-color: transparent;
+  border: 0px;
+  border-left: 1px solid rgba(41, 61, 61, 0.15);
+  border-right: 1px solid rgba(41, 61, 61, 0.15);
+  border-bottom: 1px solid rgba(41, 61, 61, 0.15);
+  text-align: left;
+  font-size: 16px;
+  width: 220px;
+  outline: none;
+  margin-left: 7px;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(163, 158, 158);
+  font-style: italic;
+  font-size: 14px;
+}
+::-moz-input-placeholder {
+  color: rgb(163, 158, 158);
+  font-style: italic;
+  font-size: 12px;
+}
+::-ms-input-placeholder {
+  color: rgb(163, 158, 158);
+  font-style: italic;
+  font-size: 12px;
+}
+
+.button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(41, 61, 61, 0.25);
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+  color: rgba(39, 37, 37, 0.911);
+  font-size: 20px;
+  text-align: center;
+}
+.button:hover {
+  background-color: rgba(39, 37, 37, 0.356);
+}
+.comment {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  resize: none;
+  margin-top: 20px;
+  width: fit-content;
+  height: 50px;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  border-left: 1px solid rgba(41, 61, 61, 0.15);
+  border-right: 1px solid rgba(41, 61, 61, 0.15);
+  border-bottom: 1px solid rgba(41, 61, 61, 0.15);
+  font-size: 16px;
+  width: 220px;
+  margin-left: 7px;
+}
+
+.material-icons {
+  position: relative;
+  top: 4.5px;
+}
