@@ -67,38 +67,6 @@ nav ul li:hover {
     height: 100vh;
     background: rgb(139, 139, 138);
     top: 80px;
-    top: -100%;
-    text-align: center;
-  }
-  nav ul li {
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-around;
-  }
-  nav ul li a {
-    font-size: 20px;
-    display: block;
-  }
-  nav ul li:hover {
-    background: rgba(105, 141, 48, 0.411);
-  }
-
-  #check:checked ~ ul {
-    top: 0;
-    transition: 0.7s;
-  }
-}
-@media (max-width: 400px) {
-  .checkbtn {
-    display: inline-block;
-    background: none;
-  }
-  nav ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: rgb(139, 139, 138);
-    top: 80px;
     left: -100%;
     text-align: center;
   }
