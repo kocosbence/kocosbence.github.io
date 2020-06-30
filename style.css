@@ -48,9 +48,13 @@ a:hover {
 }
 #check {
   display: none;
+  background: none;
 }
 
 @media (max-width: 900px) {
+  input.middle:focus {
+    outline-width: 0;
+  }
   .checkbtn {
     display: inline-block;
     background: none;
