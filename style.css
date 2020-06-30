@@ -5,6 +5,7 @@
   margin: 0;
   text-decoration: none;
 }
+
 body {
   font-family: monospace;
 }
@@ -52,12 +53,10 @@ a:hover {
 }
 
 @media (max-width: 900px) {
-  input.middle:focus {
-    outline-width: 0;
-  }
   .checkbtn {
     display: inline-block;
     background: none;
+    outline: none;
   }
   nav ul {
     position: fixed;
@@ -67,13 +66,16 @@ a:hover {
     top: 80px;
     left: -100%;
     text-align: center;
+    outline: none;
   }
   nav ul li {
     display: block;
+    outline: none;
   }
   nav ul li a {
     font-size: 20px;
     display: block;
+    outline: none;
   }
   a:hover {
     background: rgba(105, 141, 48, 0.411);
@@ -81,8 +83,10 @@ a:hover {
     padding-right: 20%;
     margin: 0;
     border: 0;
+    outline: none;
   }
   #check:checked ~ ul {
     left: 0;
+    outline: none;
   }
 }
