@@ -18,9 +18,6 @@
   background: transparent;
 }
 
-*:focus {
-  outline: none;
-}
 body {
   font-family: monospace;
 }
@@ -53,19 +50,13 @@ a:hover {
   background: rgba(105, 141, 48, 0.411);
   transition: 0.5s;
 }
-a:focus {
-  outline: none;
-}
-button:focus {
-  outline: none;
-}
+
 .checkbtn {
   font-size: 30px;
   display: none;
   float: right;
   position: relative;
   top: 25px;
-
   margin-right: 40px;
   cursor: pointer;
   display: none;
@@ -80,7 +71,6 @@ button:focus {
   .checkbtn {
     display: inline-block;
     background: none;
-    outline: none;
   }
   nav ul {
     position: fixed;
@@ -90,16 +80,16 @@ button:focus {
     top: 80px;
     left: -100%;
     text-align: center;
-    outline: none;
   }
   nav ul li {
-    display: block;
-    outline: none;
+    display: flex;
+
+    margin: 30px;
+    justify-content: space-around;
   }
   nav ul li a {
     font-size: 20px;
     display: block;
-    outline: none;
   }
   a:hover {
     background: rgba(105, 141, 48, 0.411);
@@ -107,16 +97,11 @@ button:focus {
     padding-right: 20%;
     margin: 0;
     border: 0;
-    outline: none;
   }
-  a:focus {
-    outline: none;
-  }
-  button:focus {
-    outline: none;
-  }
+
   #check:checked ~ ul {
     left: 0;
-    outline: none;
+
+    display: flexbox;
   }
 }
