@@ -35,7 +35,7 @@ nav ul li a {
   border-radius: 3px;
 }
 
-nav ul li:hover {
+nav ul:hover {
   background: rgba(105, 141, 48, 0.411);
   transition: 0.5s;
 }
@@ -67,7 +67,7 @@ nav ul li:hover {
     height: 100vh;
     background: rgb(139, 139, 138);
     top: 80px;
-    left: -100%;
+    top: -100%;
     text-align: center;
   }
   nav ul li {
@@ -79,12 +79,16 @@ nav ul li:hover {
     font-size: 20px;
     display: block;
   }
-  nav ul li:hover {
+  a:hover {
     background: rgba(105, 141, 48, 0.411);
+    padding-left: 20vh;
+    padding-right: 20vh;
+    margin: 0;
+    border: 0;
   }
 
   #check:checked ~ ul {
-    left: 0;
+    top: 0;
     transition: 0.7s;
   }
 }
