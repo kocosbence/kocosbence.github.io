@@ -52,7 +52,8 @@ a:hover {
 
 @media (max-width: 900px) {
   .checkbtn {
-    display: block;
+    display: inline-block;
+    background: none;
   }
   nav ul {
     position: fixed;
