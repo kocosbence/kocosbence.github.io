@@ -55,6 +55,9 @@ a:hover {
 a:focus {
   outline: none;
 }
+button:focus {
+  outline: none;
+}
 .checkbtn {
   font-size: 30px;
   display: none;
@@ -106,6 +109,9 @@ a:focus {
     outline: none;
   }
   a:focus {
+    outline: none;
+  }
+  button:focus {
     outline: none;
   }
   #check:checked ~ ul {
