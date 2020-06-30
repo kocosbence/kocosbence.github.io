@@ -61,7 +61,8 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: rgba(71, 96, 148, 0.705);
+  background-color: rgb(71, 96, 148);
+  transition: 0.5s;
 }
 
 ul li ul li {
@@ -71,12 +72,12 @@ ul li ul li {
 
 ul li:hover ul li {
   display: block;
-  background-color: rgba(37, 51, 82, 0.699);
+  background-color: rgb(37, 51, 82);
   width: 200px;
 }
 .content {
   text-align: center;
-  margin: 0px;
+  margin: 50px 0 0 0;
   padding: 0px;
   border: 0px;
 }
