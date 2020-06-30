@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Állatok nézegetője</title>
+    <link rel="stylesheet" href="css/page2.css" />
+    <link rel="stylesheet" href="css/index2left.css" />
+    <link rel="stylesheet" href="css/order.css" />
+    
+  </head>
+  <body>
+    <div class="calendar-flexbox-container">
+        <div class="calendar-flexbox-item left-item">
+            <div>
+          <p>
+          <ul class="ulnavstyleleft">
+            <li class="linavstyleleft">
+              <a class="navbuttonsleft" href="index2.html">Kezdőlap</a>
+            </li>
+            <li class="linavstyleleft">
+              <a class="navbuttonsleft" href="frog.html">Békák</a>
+            </li>
+            <li class="linavstyleleft">
+              <a class="navbuttonsleft" href="lizard.html">Gyíkok</a>
+            </li> 
+            <li class="linavstyleleft">
+              <a class="navbuttonsleft" href="dog.html">Kutyák</a>
+            </li>
+            <li class="linavstyleleft">
+              <a class="navbuttonsleft" href="snake.html">Kígyók</a>
+            </li>
+            <li class="linavstyleleft">
+              <a class="navbuttonsleft" href="bird.html">Madarak</a>
+              </li>
+              <li class="linavstyleleft">
+                  <a class="navbuttonsleft" href="calendarorder.html">Naptár rendelés</a>
+                  </li>
+          </ul>
+        </p>
+        </div>
+      </div>
+        <div class="calendar-flexbox-item middle-item">
+            <div class="calendar-flexbox-item calendar-item">
+                <div class="order">
+                <form>
+                  <div>
+                    <legend class="personaldata">Személyes adatok</legend>
+                  </div>
+                  <div class="input-fields">
+                    <input type="text" class="input" placeholder="Név*" required />
+                    <input type="text" class="input" placeholder="Email*" required />
+                    <input
+                      type="text"
+                      class="input"
+                      placeholder="Telefonszám*"
+                      required
+                    />
+                    <input type="text" class="input" placeholder="Város*" required />
+                    <input
+                      type="text"
+                      class="input"
+                      placeholder="Irányítószám*"
+                      required
+                    />
+                    <input type="text" class="input" placeholder="Utca*" required />
+                    <input type="text" class="input" placeholder="Házszám*" required />
+                  </div>
+                  <div>
+                    <textarea
+                      class="comment"
+                      placeholder="Megjegyzés"
+                      cols="40"
+                      rows="5"
+                    ></textarea>
+                    <div class="button">Megrendel</div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="calendar-flexbox-item calendar2-item">
+            
+                <form>
+                  <legend>Kiválasztott naptár</legend>
+                      <div>
+                        <input id="béka" name="naptár" type="radio" required />
+                        <label for="béka">Béka</label>
+                      </div>
+                      <div>
+                        <input id="gyík" name="naptár" type="radio" required />
+                        <label for="gyík">Gyík</label>
+                      </div>
+                      <div>
+                        <input id="kutya" name="naptár" type="radio" required />
+                        <label for="kutya">Kutya</label>
+                      </div>
+                      <div>
+                        <input id="kígyó" name="naptár" type="radio" required />
+                        <label for="kígyó">Kígyó</label>
+                      </div>
+                      <div>
+                        <input id="madár" name="naptár" type="radio" required />
+                        <label for="madár">Madár</label>
+                      </div>
+                    </form>
+                    
+                    
+                    <form>
+                      <legend>Kiválasztott stílus</legend>
+                        <div>
+                          <input id="béka2" name="naptár2" type="radio" required />
+                          <label for="béka2">1</label>
+                        </div>
+                        <div>
+                          <input id="gyík2" name="naptár2" type="radio" required />
+                          <label for="gyík2">2</label>
+                        </div>
+                        <div>
+                          <input id="kutya2" name="naptár2" type="radio" required />
+                          <label for="kutya2">3</label>
+                        </div>
+                        <div>
+                          <input id="kígyó2" name="naptár2" type="radio" required />
+                          <label for="kígyó2">4</label>
+                        </div>
+                        <div>
+                          <input id="madár2" name="naptár2" type="radio" required />
+                          <label for="madár2">5</label>
+                        </div>
+                      </form>
+                        
+                 <form>
+                   <legend>Kiválasztott méret</legend>
+                      <div>
+                        <input id="béka3" name="naptár3" type="radio" required />
+                        <label for="béka3">Extra kicsi (15x25cm)</label>
+                      </div>
+                      <div>
+                        <input id="gyík3" name="naptár3" type="radio" required />
+                        <label for="gyík3">Kicsi (25x40cm)</label>
+                      </div>
+                      <div>
+                        <input id="kutya3" name="naptár3" type="radio" required />
+                        <label for="kutya3">Közepes (32x52cm)</label>
+                      </div>
+                      <div>
+                        <input id="kígyó3" name="naptár3" type="radio" required />
+                        <label for="kígyó3">Nagy (45x60cm)</label>
+                      </div>
+                      <div>
+                        <input id="madár3" name="naptár3" type="radio" required />
+                        <label for="madár3">Extra nagy (70x90cm)</label>
+                      </div>
+                    </form>
+                        
+                 
+                
+          
+        
+     
+    
+
+    
+        
+            </div>
+        </div>
+        <div class="calendar-flexbox-item calendar-right-item"></div>
+    </div>
+  </body>
+</html>
