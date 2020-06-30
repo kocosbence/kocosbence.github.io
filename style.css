@@ -5,7 +5,9 @@
   margin: 0;
   text-decoration: none;
 }
-
+*:focus {
+  outline: none;
+}
 body {
   font-family: monospace;
 }
