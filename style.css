@@ -6,17 +6,6 @@
   margin: 0;
   text-decoration: none;
 }
-::selection {
-  color: none;
-  background: #00000000;
-}
-::-moz-selection {
-  color: none;
-  background: #00000000;
-}
-::-webkit-tap-highlight-color {
-  background: transparent;
-}
 
 body {
   font-family: monospace;
@@ -78,13 +67,12 @@ a:hover {
     height: 100vh;
     background: rgb(139, 139, 138);
     top: 80px;
-    left: -100%;
+    top: -100%;
     text-align: center;
   }
   nav ul li {
     display: flex;
-
-    margin: 30px;
+    margin-top: 30px;
     justify-content: space-around;
   }
   nav ul li a {
@@ -93,15 +81,14 @@ a:hover {
   }
   a:hover {
     background: rgba(105, 141, 48, 0.411);
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20vh;
+    padding-right: 20vh;
     margin: 0;
     border: 0;
   }
 
   #check:checked ~ ul {
-    left: 0;
-
-    display: flexbox;
+    top: 0;
+    transition: 0.7s;
   }
 }
