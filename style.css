@@ -6,6 +6,17 @@
   margin: 0;
   text-decoration: none;
 }
+::selection {
+  color: none;
+  background: #00000000;
+}
+::-moz-selection {
+  color: none;
+  background: #00000000;
+}
+::-webkit-tap-highlight-color {
+  background: transparent;
+}
 
 body {
   font-family: monospace;
@@ -35,7 +46,7 @@ nav ul li a {
   border-radius: 3px;
 }
 
-nav ul:hover {
+a:hover {
   background: rgba(105, 141, 48, 0.411);
   transition: 0.5s;
 }
@@ -67,12 +78,13 @@ nav ul:hover {
     height: 100vh;
     background: rgb(139, 139, 138);
     top: 80px;
-    top: -100%;
+    left: -100%;
     text-align: center;
   }
   nav ul li {
     display: flex;
-    margin-top: 30px;
+
+    margin: 30px;
     justify-content: space-around;
   }
   nav ul li a {
@@ -81,14 +93,14 @@ nav ul:hover {
   }
   a:hover {
     background: rgba(105, 141, 48, 0.411);
-    padding-left: 20vh;
-    padding-right: 20vh;
+    padding-left: 20%;
+    padding-right: 20%;
     margin: 0;
     border: 0;
   }
 
   #check:checked ~ ul {
-    top: 0;
-    transition: 0.7s;
+    left: 0;
+    transition: 0.5s;
   }
 }
